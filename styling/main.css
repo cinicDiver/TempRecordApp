@@ -5,7 +5,7 @@ body{
 }
 
 button{
-    border-radius: 1px;
+    border-radius: 5px;
     border: transparent;
     background-color: lightgray;
     font-weight: bold;
@@ -18,15 +18,14 @@ button:hover{
 }
 
 input{
-    margin: 1px;
+    margin: 2px;
     border: transparent;
     border-radius: 3px;
 }
 
 #loginDiv{
-    position: absolute;
-    top:30%;
-    left: 40%;
+    margin: 0 auto;
+    width:400px;
     border: 1px solid black;
     border-radius: 5px;
     background: white;
@@ -36,26 +35,28 @@ input{
 
 #divHeader{
     color:lightgray;
+    text-align: center;
 }
 
 #divContent{
     display: grid;
     padding: 5px;
+    align-content: center;
 }
 
 #divBtn{
-    position: relative;
-    left: 25%;
+    width:200px;
+    margin: 0 auto;
+    text-align: center;
+
 }
 
 #dateValue{
     width: 150px;
-    position: relative;
-    left: 20%;
+    margin: 2px auto;
 }
 
 #tempValue{
     width:50px;
-    position: relative;
-    left:40%;
+    margin: 2px auto;
 }
