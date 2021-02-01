@@ -20,7 +20,7 @@ label{
 }
 
 button:hover{
-    border: 1px solid grey;
+    border: 0.5px solid grey;
 }
 
 input{
@@ -31,12 +31,12 @@ input{
 
 .contentDiv{
     margin: 0 auto;
-    width: 40%;
-    border: 1px solid black;
+    width: 50%;
+    border: 1px solid gray;
     border-radius: 5px;
     background: white;
     box-shadow: black;
-    padding: 25px;
+    padding: 20px;
 }
 
 .divHeader{
@@ -54,7 +54,7 @@ input{
     width:100%;
     margin: 0 auto;
     text-align: center;
-
+    display: flexbox;
 }
 
 .hiddenDiv{
@@ -63,8 +63,10 @@ input{
 
 #dateValue{
     margin: 2px auto;
+    color: gray;
 }
 
 #tempValue{
+    width: 120px;
     margin: 2px auto;
 }
